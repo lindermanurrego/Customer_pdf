@@ -1,0 +1,6 @@
+<core:View controllerName='customer_pdf.Display'
+           xmlns:core="sap.ui.core"
+           xmlns="sap.ui.commons"
+           >
+
+</core:View>
