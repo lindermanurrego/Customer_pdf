@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv='Content-Type' content='text/html;charset=UTF-8'/>
+    <link rel="stylesheet" type="text/css" href="css/customer_pdf.css">
+    <script src="resources/sap-ui-core.js" id="sap-ui-bootstrap" data-sap-ui-language="en" data-sap-ui-libs="sap.m" data-sap-ui-theme="sap_bluecrystal">
+    </script>
+    <script>
+        sap.ui.localResources("customer_pdf");
+        sap.ui.localResources("util");
+        sap.ui.localResources("i18n");
+        var oApp = new sap.m.App({initialPage: "app"});
+        var oPage = sap.ui.view({
+            id: "app",
+            viewName: "customer_pdf.Main",
+            type: sap.ui.core.mvc.ViewType.XML });
+        oApp.addPage(oPage);
+        oApp.placeAt("content");
+    </script>
+</head>
+<body class="sapUiBody" role="application">
+    <div id="content">
+
+    </div>
+</body>
+</html>
