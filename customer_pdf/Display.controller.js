@@ -6,6 +6,7 @@ sap.ui.controller('customer_pdf.Display', {
     * @memberOf C:.Users.urregoli.IdeaProjects.Customer_pdf.customer_pdf.Display **/
     onInit: function() {
 
+        
     },
 
     /**
